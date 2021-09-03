@@ -1,0 +1,86 @@
+.container {
+    background-color: blue;
+    width: 100vw;
+    
+    
+
+
+}
+/*  */
+.content-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+
+}
+.heading-section {
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    justify-content: center;
+   
+
+}
+.h4heading {
+    display: flex;
+    
+    width: 100%;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    background-color: red;
+    width: 100%;
+    justify-content: center;
+    padding: 30px;
+    
+
+}
+.card img {
+    width: 20%;
+    padding: 10px;
+    border-bottom-left-radius: 15%;
+    
+    
+}
+.card h4 {
+    display: flex;
+    
+    width: 100%;
+    justify-content: center;
+
+}
+.card p {
+    display: flex;
+    width: 80%;
+    margin-left: 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+}
+@media  (max-width: 700px) {
+  /* changes for the image when on a mobile screen */
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+.card img {
+    width: auto;
+}
+.heading-section {
+    font-size: 10px;
+    padding: 20px;
+}
+/* abbout me page text and photo becoming a column */
+.about-me-photo-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    display: flex;
+    
+}
